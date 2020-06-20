@@ -1,0 +1,1447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="41" failed="0" total="45" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="63942" started-at="2020-06-20T14:20:31Z" finished-at="2020-06-20T14:21:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="63942" started-at="2020-06-20T14:20:31Z" finished-at="2020-06-20T14:21:35Z">
+      <class name="com.propine.dateparser.DateParserTest">
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="10647" started-at="2020-06-20T19:50:31Z" finished-at="2020-06-20T19:50:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="46" started-at="2020-06-20T19:50:42Z" data-provider="testdata" finished-at="2020-06-20T19:50:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://vast-dawn-73245.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Propine Date Parser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="PASS" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="342" started-at="2020-06-20T19:50:43Z" finished-at="2020-06-20T19:50:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="8519" started-at="2020-06-20T19:50:43Z" finished-at="2020-06-20T19:50:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="83" started-at="2020-06-20T19:50:52Z" data-provider="testdata" finished-at="2020-06-20T19:50:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="PASS" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="4168" started-at="2020-06-20T19:50:52Z" finished-at="2020-06-20T19:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="8188" started-at="2020-06-20T19:50:56Z" finished-at="2020-06-20T19:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="2112" started-at="2020-06-20T19:51:04Z" data-provider="testdata" finished-at="2020-06-20T19:51:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2020-06-10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Wed Jun 10 2020 00:00:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="PASS" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="373" started-at="2020-06-20T19:51:06Z" finished-at="2020-06-20T19:51:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="8083" started-at="2020-06-20T19:51:07Z" finished-at="2020-06-20T19:51:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="2249" started-at="2020-06-20T19:51:15Z" data-provider="testdata" finished-at="2020-06-20T19:51:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wednesday,April 15,2009]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Wed Apr 15 2009 00:00:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="PASS" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="417" started-at="2020-06-20T19:51:17Z" finished-at="2020-06-20T19:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="FAIL" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:18Z" finished-at="2020-06-20T19:51:18Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created
+from chrome not reachable
+  (Session info: chrome=83.0.4103.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HIBACL69316', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x007D9563+2725219]
+	Ordinal0 [0x006D8551+1672529]
+	Ordinal0 [0x005C0202+524802]
+	Ordinal0 [0x005B99B2+498098]
+	Ordinal0 [0x005BA09B+499867]
+	Ordinal0 [0x005BAFF5+503797]
+	Ordinal0 [0x005B6994+485780]
+	Ordinal0 [0x005C0FF0+528368]
+	Ordinal0 [0x0056D6C9+186057]
+	Ordinal0 [0x0056CA3D+182845]
+	Ordinal0 [0x0056A94B+174411]
+	Ordinal0 [0x00552528+75048]
+	Ordinal0 [0x005535A0+79264]
+	Ordinal0 [0x00553539+79161]
+	Ordinal0 [0x006ED607+1758727]
+	GetHandleVerifier [0x008F6546+1050150]
+	GetHandleVerifier [0x008F6291+1049457]
+	GetHandleVerifier [0x009010D7+1094071]
+	GetHandleVerifier [0x008F6B46+1051686]
+	Ordinal0 [0x006E5B06+1727238]
+	Ordinal0 [0x006EEB7B+1764219]
+	Ordinal0 [0x006EECE3+1764579]
+	Ordinal0 [0x00704C05+1854469]
+	BaseThreadInitThunk [0x76F36359+25]
+	RtlGetAppContainerNamedObjectPath [0x77077C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77077BF4+180]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=83.0.4103.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HIBACL69316', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x007D9563+2725219]
+	Ordinal0 [0x006D8551+1672529]
+	Ordinal0 [0x005C0202+524802]
+	Ordinal0 [0x005B99B2+498098]
+	Ordinal0 [0x005BA09B+499867]
+	Ordinal0 [0x005BAFF5+503797]
+	Ordinal0 [0x005B6994+485780]
+	Ordinal0 [0x005C0FF0+528368]
+	Ordinal0 [0x0056D6C9+186057]
+	Ordinal0 [0x0056CA3D+182845]
+	Ordinal0 [0x0056A94B+174411]
+	Ordinal0 [0x00552528+75048]
+	Ordinal0 [0x005535A0+79264]
+	Ordinal0 [0x00553539+79161]
+	Ordinal0 [0x006ED607+1758727]
+	GetHandleVerifier [0x008F6546+1050150]
+	GetHandleVerifier [0x008F6291+1049457]
+	GetHandleVerifier [0x009010D7+1094071]
+	GetHandleVerifier [0x008F6B46+1051686]
+	Ordinal0 [0x006E5B06+1727238]
+	Ordinal0 [0x006EEB7B+1764219]
+	Ordinal0 [0x006EECE3+1764579]
+	Ordinal0 [0x00704C05+1854469]
+	BaseThreadInitThunk [0x76F36359+25]
+	RtlGetAppContainerNamedObjectPath [0x77077C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77077BF4+180]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.propine.dateparser.DateParser.browserMethod(DateParser.java:36)
+	at com.propine.dateparser.DateParserTest.launch(DateParserTest.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="5" started-at="2020-06-20T19:51:32Z" data-provider="testdata" finished-at="2020-06-20T19:51:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_005]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fri Jun 01 2001 00:00:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:32Z" finished-at="2020-06-20T19:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:32Z" finished-at="2020-06-20T19:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="4" started-at="2020-06-20T19:51:32Z" data-provider="testdata" finished-at="2020-06-20T19:51:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_006]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6-13]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Wed Jun 13 2001 00:00:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:32Z" finished-at="2020-06-20T19:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:32Z" finished-at="2020-06-20T19:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="5" started-at="2020-06-20T19:51:32Z" data-provider="testdata" finished-at="2020-06-20T19:51:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_007]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1969-10-10 14:48:00]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fri Oct 10 1969 14:48:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:32Z" finished-at="2020-06-20T19:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:32Z" finished-at="2020-06-20T19:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="2" started-at="2020-06-20T19:51:32Z" data-provider="testdata" finished-at="2020-06-20T19:51:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_008]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[05/09/20 24:00:00]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sun May 10 2020 00:00:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:32Z" finished-at="2020-06-20T19:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:32Z" finished-at="2020-06-20T19:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="5" started-at="2020-06-20T19:51:32Z" data-provider="testdata" finished-at="2020-06-20T19:51:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_009]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11-1-2011 EST]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tue Nov 01 2011 04:00:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:32Z" finished-at="2020-06-20T19:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:32Z" finished-at="2020-06-20T19:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="2" started-at="2020-06-20T19:51:32Z" data-provider="testdata" finished-at="2020-06-20T19:51:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_010]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1969-10-12 22:48:00 PST]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mon Oct 13 1969 05:48:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:32Z" finished-at="2020-06-20T19:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:32Z" finished-at="2020-06-20T19:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="3" started-at="2020-06-20T19:51:32Z" data-provider="testdata" finished-at="2020-06-20T19:51:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_011]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11-1-2011 NST]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tue Nov 01 2011 02:30:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:32Z" finished-at="2020-06-20T19:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:32Z" finished-at="2020-06-20T19:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="2" started-at="2020-06-20T19:51:32Z" data-provider="testdata" finished-at="2020-06-20T19:51:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_012]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11-1-2011 08:00:00 IST]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tue Nov 01 2011 013:30:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:32Z" finished-at="2020-06-20T19:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:32Z" finished-at="2020-06-20T19:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="3" started-at="2020-06-20T19:51:32Z" data-provider="testdata" finished-at="2020-06-20T19:51:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_013]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11-1-2011 08:00:00 AMT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tue Nov 01 2011 04:00:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:33Z" finished-at="2020-06-20T19:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:33Z" finished-at="2020-06-20T19:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="2" started-at="2020-06-20T19:51:33Z" data-provider="testdata" finished-at="2020-06-20T19:51:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_014]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[07/12/12 1:15 PM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Thu Jul 12 2012 13:15:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:33Z" finished-at="2020-06-20T19:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:33Z" finished-at="2020-06-20T19:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="2" started-at="2020-06-20T19:51:33Z" data-provider="testdata" finished-at="2020-06-20T19:51:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_015]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[07/12/12 1:15 AM]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Thu Jul 12 2012 01:15:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:33Z" finished-at="2020-06-20T19:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:33Z" finished-at="2020-06-20T19:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="2" started-at="2020-06-20T19:51:33Z" data-provider="testdata" finished-at="2020-06-20T19:51:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_016]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Friday,April 15,2009]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Wed Apr 15 2009 00:00:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:33Z" finished-at="2020-06-20T19:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:33Z" finished-at="2020-06-20T19:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="2" started-at="2020-06-20T19:51:33Z" data-provider="testdata" finished-at="2020-06-20T19:51:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_017]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3/14/2013]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Thu Mar 14 2013 00:00:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:33Z" finished-at="2020-06-20T19:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:33Z" finished-at="2020-06-20T19:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="2" started-at="2020-06-20T19:51:33Z" data-provider="testdata" finished-at="2020-06-20T19:51:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_018]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3/14]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Wed Mar 14 2001 00:00:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:33Z" finished-at="2020-06-20T19:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:33Z" finished-at="2020-06-20T19:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="1" started-at="2020-06-20T19:51:33Z" data-provider="testdata" finished-at="2020-06-20T19:51:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_019]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2/29/2020]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sat Feb 29 2020 00:00:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:33Z" finished-at="2020-06-20T19:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:33Z" finished-at="2020-06-20T19:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="3" started-at="2020-06-20T19:51:33Z" data-provider="testdata" finished-at="2020-06-20T19:51:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_020]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[02/29/2020]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sat Feb 29 2020 00:00:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:33Z" finished-at="2020-06-20T19:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:33Z" finished-at="2020-06-20T19:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="6" started-at="2020-06-20T19:51:33Z" data-provider="testdata" finished-at="2020-06-20T19:51:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_021]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[08-JAN]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mon Jan 08 2001 00:00:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:33Z" finished-at="2020-06-20T19:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:33Z" finished-at="2020-06-20T19:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="5" started-at="2020-06-20T19:51:33Z" data-provider="testdata" finished-at="2020-06-20T19:51:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_022]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[08-JAN-11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sat Jan 08 2011 00:00:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:34Z" finished-at="2020-06-20T19:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:34Z" finished-at="2020-06-20T19:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="3" started-at="2020-06-20T19:51:34Z" data-provider="testdata" finished-at="2020-06-20T19:51:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_023]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FEB-12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mon Feb 12 2001 00:00:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:34Z" finished-at="2020-06-20T19:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:34Z" finished-at="2020-06-20T19:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="5" started-at="2020-06-20T19:51:34Z" data-provider="testdata" finished-at="2020-06-20T19:51:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_024]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[February-12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mon Feb 12 2001 00:00:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:34Z" finished-at="2020-06-20T19:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:34Z" finished-at="2020-06-20T19:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="3" started-at="2020-06-20T19:51:34Z" data-provider="testdata" finished-at="2020-06-20T19:51:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_025]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[APR 05,1700]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mon Apr 05 1700 00:00:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:34Z" finished-at="2020-06-20T19:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:34Z" finished-at="2020-06-20T19:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="2" started-at="2020-06-20T19:51:34Z" data-provider="testdata" finished-at="2020-06-20T19:51:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_026]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1/10/2032]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sat Jan 10 2032 00:00:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:34Z" finished-at="2020-06-20T19:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:34Z" finished-at="2020-06-20T19:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="1" started-at="2020-06-20T19:51:34Z" data-provider="testdata" finished-at="2020-06-20T19:51:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_027]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[07-AUG-1990]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tue Aug 07 1990 00:00:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:34Z" finished-at="2020-06-20T19:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:34Z" finished-at="2020-06-20T19:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="2" started-at="2020-06-20T19:51:34Z" data-provider="testdata" finished-at="2020-06-20T19:51:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_028]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[07 AUG 1990]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tue Aug 07 1990 00:00:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:34Z" finished-at="2020-06-20T19:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:34Z" finished-at="2020-06-20T19:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="2" started-at="2020-06-20T19:51:34Z" data-provider="testdata" finished-at="2020-06-20T19:51:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_029]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tuesday,07 AUG 1990]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tue Aug 07 1990 00:00:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:34Z" finished-at="2020-06-20T19:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:34Z" finished-at="2020-06-20T19:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="5" started-at="2020-06-20T19:51:34Z" data-provider="testdata" finished-at="2020-06-20T19:51:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_030]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[07 August 1990]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tue Aug 07 1990 00:00:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:34Z" finished-at="2020-06-20T19:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:34Z" finished-at="2020-06-20T19:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="3" started-at="2020-06-20T19:51:34Z" data-provider="testdata" finished-at="2020-06-20T19:51:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_031]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[05/09/20 23:59:59]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sat May 09 2020 23:59:59 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:34Z" finished-at="2020-06-20T19:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:34Z" finished-at="2020-06-20T19:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="2" started-at="2020-06-20T19:51:34Z" data-provider="testdata" finished-at="2020-06-20T19:51:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_032]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[01/03/20 17:20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fri Jan 03 2020 17:20:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:34Z" finished-at="2020-06-20T19:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:34Z" finished-at="2020-06-20T19:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="4" started-at="2020-06-20T19:51:34Z" data-provider="testdata" finished-at="2020-06-20T19:51:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_033]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21 July 2013 10:15 pm +0115]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sun Jul 21 2013 21:00:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:34Z" finished-at="2020-06-20T19:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:34Z" finished-at="2020-06-20T19:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="1" started-at="2020-06-20T19:51:34Z" data-provider="testdata" finished-at="2020-06-20T19:51:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_034]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21 July 2013 10:15 am -0115]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sun Jul 21 2013 11:30:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:35Z" finished-at="2020-06-20T19:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:35Z" finished-at="2020-06-20T19:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="1" started-at="2020-06-20T19:51:35Z" data-provider="testdata" finished-at="2020-06-20T19:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_035]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11-1-2011 20:05:00  PST]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Wed Nov 02 2011 04:05:00 GMT+0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:35Z" finished-at="2020-06-20T19:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:35Z" finished-at="2020-06-20T19:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="1" started-at="2020-06-20T19:51:35Z" data-provider="testdata" finished-at="2020-06-20T19:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_036]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[05/09/20 25:59:59]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid date]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:35Z" finished-at="2020-06-20T19:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:35Z" finished-at="2020-06-20T19:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="1" started-at="2020-06-20T19:51:35Z" data-provider="testdata" finished-at="2020-06-20T19:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_037]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[05/09/20 8:61:10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid date]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:35Z" finished-at="2020-06-20T19:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:35Z" finished-at="2020-06-20T19:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="2" started-at="2020-06-20T19:51:35Z" data-provider="testdata" finished-at="2020-06-20T19:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_038]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[05/09/20 8:10:61]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid date]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:35Z" finished-at="2020-06-20T19:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:35Z" finished-at="2020-06-20T19:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="1" started-at="2020-06-20T19:51:35Z" data-provider="testdata" finished-at="2020-06-20T19:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_039]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20-06-10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid date]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:35Z" finished-at="2020-06-20T19:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:35Z" finished-at="2020-06-20T19:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="14" started-at="2020-06-20T19:51:35Z" data-provider="testdata" finished-at="2020-06-20T19:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_040]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15-10-2020]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid date]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:35Z" finished-at="2020-06-20T19:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:35Z" finished-at="2020-06-20T19:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="1" started-at="2020-06-20T19:51:35Z" data-provider="testdata" finished-at="2020-06-20T19:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_041]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15/8/1990]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid date]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:35Z" finished-at="2020-06-20T19:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:35Z" finished-at="2020-06-20T19:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="5" started-at="2020-06-20T19:51:35Z" data-provider="testdata" finished-at="2020-06-20T19:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_042]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15/8/90]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid date]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:35Z" finished-at="2020-06-20T19:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:35Z" finished-at="2020-06-20T19:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="2" started-at="2020-06-20T19:51:35Z" data-provider="testdata" finished-at="2020-06-20T19:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_043]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[09172020]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid date]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:35Z" finished-at="2020-06-20T19:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:35Z" finished-at="2020-06-20T19:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="1" started-at="2020-06-20T19:51:35Z" data-provider="testdata" finished-at="2020-06-20T19:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_044]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid date]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:35Z" finished-at="2020-06-20T19:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="SKIP" signature="launch()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="launch" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:35Z" finished-at="2020-06-20T19:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="SKIP" signature="dateParser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="dateParser" duration-ms="1" started-at="2020-06-20T19:51:35Z" data-provider="testdata" finished-at="2020-06-20T19:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_045]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid date]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParser -->
+        <test-method status="SKIP" signature="logoutTest()[pri:0, instance:com.propine.dateparser.DateParserTest@11e21d0e]" name="logoutTest" is-config="true" duration-ms="0" started-at="2020-06-20T19:51:35Z" finished-at="2020-06-20T19:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+      </class> <!-- com.propine.dateparser.DateParserTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

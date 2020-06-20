@@ -1,0 +1,1965 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Test</h1>
+<p>
+  Test duration: 45.346s
+</p>
+
+  <table class="resultsTable configTable">
+    <tr><th colspan="3" class="header failedConfig">Failed Configuration</th></tr>
+              <tr class="group">
+        <td colspan="3">com.propine.dateparser.DateParserTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.SessionNotCreatedException: session not created<br/>
+from chrome not reachable<br/>
+&nbsp; (Session info: chrome=83.0.4103.106)<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;HIBACL69316&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;<br/>
+Driver info: driver.version: ChromeDriver<br/>
+remote stacktrace: Backtrace:<br/>
+	Ordinal0 [0x007D9563+2725219]<br/>
+	Ordinal0 [0x006D8551+1672529]<br/>
+	Ordinal0 [0x005C0202+524802]<br/>
+	Ordinal0 [0x005B99B2+498098]<br/>
+	Ordinal0 [0x005BA09B+499867]<br/>
+	Ordinal0 [0x005BAFF5+503797]<br/>
+	Ordinal0 [0x005B6994+485780]<br/>
+	Ordinal0 [0x005C0FF0+528368]<br/>
+	Ordinal0 [0x0056D6C9+186057]<br/>
+	Ordinal0 [0x0056CA3D+182845]<br/>
+	Ordinal0 [0x0056A94B+174411]<br/>
+	Ordinal0 [0x00552528+75048]<br/>
+	Ordinal0 [0x005535A0+79264]<br/>
+	Ordinal0 [0x00553539+79161]<br/>
+	Ordinal0 [0x006ED607+1758727]<br/>
+	GetHandleVerifier [0x008F6546+1050150]<br/>
+	GetHandleVerifier [0x008F6291+1049457]<br/>
+	GetHandleVerifier [0x009010D7+1094071]<br/>
+	GetHandleVerifier [0x008F6B46+1051686]<br/>
+	Ordinal0 [0x006E5B06+1727238]<br/>
+	Ordinal0 [0x006EEB7B+1764219]<br/>
+	Ordinal0 [0x006EECE3+1764579]<br/>
+	Ordinal0 [0x00704C05+1854469]<br/>
+	BaseThreadInitThunk [0x76F36359+25]<br/>
+	RtlGetAppContainerNamedObjectPath [0x77077C24+228]<br/>
+	RtlGetAppContainerNamedObjectPath [0x77077BF4+180]<br/>
+</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)<br />
+              org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)<br />
+              org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)<br />
+              java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)<br />
+              java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)<br />
+              java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)<br />
+              java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)<br />
+              java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)<br />
+              java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)<br />
+              java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)<br />
+              java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)<br />
+              java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)<br />
+              org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)<br />
+              org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)<br />
+              org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)<br />
+              org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)<br />
+              org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)<br />
+              com.propine.dateparser.DateParser.browserMethod(DateParser.java:36)<br />
+              com.propine.dateparser.DateParserTest.launch(DateParserTest.java:30)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br />
+              org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)<br />
+              org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:653)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:767)<br />
+              org.testng.TestRunner.run(TestRunner.java:617)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:240)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br />
+              org.testng.TestNG.run(TestNG.java:1031)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+    
+          <tr><td colspan="3">&nbsp;</td></tr>
+      <tr><td colspan="3" class="header skippedConfig">Skipped Configuration</td></tr>
+                    <tr>
+          <td colspan="3" class="group">com.propine.dateparser.DateParserTest</td>
+        </tr>
+                
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  launch
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  logoutTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+            </table>
+
+
+
+  <table class="resultsTable" width="100%">
+    <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.propine.dateparser.DateParserTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_037", "05/09/20 8:61:10", "Invalid date"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.005s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_030", "07 August 1990", "Tue Aug 07 1990 00:00:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_039", "20-06-10", "Invalid date"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.002s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_043", "09172020", "Invalid date"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.002s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_028", "07 AUG 1990", "Tue Aug 07 1990 00:00:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.003s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_011", "11-1-2011 NST", "Tue Nov 01 2011 02:30:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.005s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_005", "6", "Fri Jun 01 2001 00:00:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.005s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_042", "15/8/90", "Invalid date"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.002s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_038", "05/09/20 8:10:61", "Invalid date"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.002s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_016", "Friday,April 15,2009", "Wed Apr 15 2009 00:00:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.002s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_032", "01/03/20 17:20", "Fri Jan 03 2020 17:20:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.005s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_022", "08-JAN-11", "Sat Jan 08 2011 00:00:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.002s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_017", "3/14/2013", "Thu Mar 14 2013 00:00:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.002s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_008", "05/09/20 24:00:00", "Sun May 10 2020 00:00:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.003s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_020", "02/29/2020", "Sat Feb 29 2020 00:00:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.004s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_033", "21 July 2013 10:15 pm +0115", "Sun Jul 21 2013 21:00:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.014s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_040", "15-10-2020", "Invalid date"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.005s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_009", "11-1-2011 EST", "Tue Nov 01 2011 04:00:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_035", "11-1-2011 20:05:00  PST", "Wed Nov 02 2011 04:05:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.003s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_025", "APR 05,1700", "Mon Apr 05 1700 00:00:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.002s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_010", "1969-10-12 22:48:00 PST", "Mon Oct 13 1969 05:48:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_044", "ABC", "Invalid date"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.005s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_024", "February-12", "Mon Feb 12 2001 00:00:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_041", "15/8/1990", "Invalid date"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.006s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_021", "08-JAN", "Mon Jan 08 2001 00:00:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.005s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_007", "1969-10-10 14:48:00", "Fri Oct 10 1969 14:48:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.002s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_018", "3/14", "Wed Mar 14 2001 00:00:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_019", "2/29/2020", "Sat Feb 29 2020 00:00:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.002s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_015", "07/12/12 1:15 AM", "Thu Jul 12 2012 01:15:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_027", "07-AUG-1990", "Tue Aug 07 1990 00:00:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.002s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_029", "Tuesday,07 AUG 1990", "Tue Aug 07 1990 00:00:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.002s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_012", "11-1-2011 08:00:00 IST", "Tue Nov 01 2011 013:30:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.003s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_031", "05/09/20 23:59:59", "Sat May 09 2020 23:59:59 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.003s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_013", "11-1-2011 08:00:00 AMT", "Tue Nov 01 2011 04:00:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_045", "", "Invalid date"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.002s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_026", "1/10/2032", "Sat Jan 10 2032 00:00:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_034", "21 July 2013 10:15 am -0115", "Sun Jul 21 2013 11:30:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.002s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_014", "07/12/12 1:15 PM", "Thu Jul 12 2012 13:15:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.003s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_023", "FEB-12", "Mon Feb 12 2001 00:00:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_036", "05/09/20 25:59:59", "Invalid date"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.004s
+  </td>
+  <td class="result">
+                               
+          <i>Method arguments: </i><span class="arguments">"TC_006", "6-13", "Wed Jun 13 2001 00:00:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+      </table>
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.propine.dateparser.DateParserTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.083s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"TC_002", "0", "0"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    0.046s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"TC_001", "https://vast-dawn-73245.herokuapp.com/", "Propine Date Parser"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    2.249s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"TC_004", "Wednesday,April 15,2009", "Wed Apr 15 2009 00:00:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  dateParser
+      </td>
+  <td class="duration">
+    2.112s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"TC_003", "2020-06-10", "Wed Jun 10 2020 00:00:00 GMT+0000"</span><br />
+    
+        
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

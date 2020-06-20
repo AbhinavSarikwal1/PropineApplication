@@ -1,0 +1,682 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">45</td><td class="numi">4</td><td class="numi_attn">45</td><td class="numi">0</td><td class="numi">63.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="5">com.propine.dateparser.DateParserTest</td><td><a href="#m1"><b>launch</b>  </a></td><td class="numi">1</td><td>1592662878006</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m2"><b>launch</b>  </a></td><td class="numi">1</td><td>1592662878006</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m3"><b>launch</b>  </a></td><td class="numi">1</td><td>1592662878006</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m4"><b>launch</b>  </a></td><td class="numi">1</td><td>1592662878006</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m5"><b>launch</b>  </a></td><td class="numi">1</td><td>1592662878006</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="9">com.propine.dateparser.DateParserTest</td><td><a href="#m6"><b>launch</b>  </a></td><td class="numi">40</td><td>1592662892286</td><td class="numi">3371</td></tr><tr class="skippedodd"><td><a href="#m7"><b>logoutTest</b>  </a></td><td class="numi">41</td><td>1592662892269</td><td class="numi">3431</td></tr><tr class="skippedodd"><td><a href="#m8"><b>launch</b>  </a></td><td class="numi">40</td><td>1592662892286</td><td class="numi">3371</td></tr><tr class="skippedodd"><td><a href="#m9"><b>logoutTest</b>  </a></td><td class="numi">41</td><td>1592662892269</td><td class="numi">3431</td></tr><tr class="skippedodd"><td><a href="#m10"><b>launch</b>  </a></td><td class="numi">40</td><td>1592662892286</td><td class="numi">3371</td></tr><tr class="skippedodd"><td><a href="#m11"><b>logoutTest</b>  </a></td><td class="numi">41</td><td>1592662892269</td><td class="numi">3431</td></tr><tr class="skippedodd"><td><a href="#m12"><b>launch</b>  </a></td><td class="numi">40</td><td>1592662892286</td><td class="numi">3371</td></tr><tr class="skippedodd"><td><a href="#m13"><b>logoutTest</b>  </a></td><td class="numi">41</td><td>1592662892269</td><td class="numi">3431</td></tr><tr class="skippedodd"><td><a href="#m14"><b>launch</b>  </a></td><td class="numi">40</td><td>1592662892286</td><td class="numi">3371</td></tr>
+<tr><th colspan="4">Test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="45">com.propine.dateparser.DateParserTest</td><td><a href="#m15"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m16"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m17"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m18"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m19"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m20"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m21"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m22"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m23"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m24"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m25"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m26"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m27"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m28"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m29"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m30"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m31"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m32"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m33"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m34"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m35"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m36"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m37"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m38"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m39"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m40"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m41"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m42"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m43"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m44"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m45"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m46"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m47"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m48"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m49"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m50"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m51"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m52"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m53"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m54"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m55"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m56"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m57"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m58"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr><tr class="skippedodd"><td><a href="#m59"><b>dateParser</b>  </a></td><td class="numi">41</td><td>1592662892160</td><td class="numi">3498</td></tr>
+<tr><th colspan="4">Test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="45">com.propine.dateparser.DateParserTest</td><td><a href="#m60"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m61"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m62"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m63"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m64"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m65"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m66"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m67"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m68"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m69"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m70"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m71"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m72"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m73"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m74"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m75"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m76"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m77"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m78"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m79"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m80"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m81"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m82"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m83"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m84"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m85"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m86"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m87"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m88"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m89"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m90"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m91"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m92"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m93"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m94"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m95"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m96"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m97"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m98"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m99"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m100"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m101"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m102"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m103"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr><tr class="passedodd"><td><a href="#m104"><b>dateParser</b>  </a></td><td class="numi">4</td><td>1592662842645</td><td class="numi">34878</td></tr>
+</table>
+<h1>Test</h1>
+<h2 id="m1">com.propine.dateparser.DateParserTest:launch</h2>
+<div style="padding-left:3em">
+<p>session not created
+from chrome not reachable
+  (Session info: chrome=83.0.4103.106)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;HIBACL69316&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x007D9563+2725219]
+	Ordinal0 [0x006D8551+1672529]
+	Ordinal0 [0x005C0202+524802]
+	Ordinal0 [0x005B99B2+498098]
+	Ordinal0 [0x005BA09B+499867]
+	Ordinal0 [0x005BAFF5+503797]
+	Ordinal0 [0x005B6994+485780]
+	Ordinal0 [0x005C0FF0+528368]
+	Ordinal0 [0x0056D6C9+186057]
+	Ordinal0 [0x0056CA3D+182845]
+	Ordinal0 [0x0056A94B+174411]
+	Ordinal0 [0x00552528+75048]
+	Ordinal0 [0x005535A0+79264]
+	Ordinal0 [0x00553539+79161]
+	Ordinal0 [0x006ED607+1758727]
+	GetHandleVerifier [0x008F6546+1050150]
+	GetHandleVerifier [0x008F6291+1049457]
+	GetHandleVerifier [0x009010D7+1094071]
+	GetHandleVerifier [0x008F6B46+1051686]
+	Ordinal0 [0x006E5B06+1727238]
+	Ordinal0 [0x006EEB7B+1764219]
+	Ordinal0 [0x006EECE3+1764579]
+	Ordinal0 [0x00704C05+1854469]
+	BaseThreadInitThunk [0x76F36359+25]
+	RtlGetAppContainerNamedObjectPath [0x77077C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77077BF4+180]
+</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+<br/>at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+<br/>at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+<br/>at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+<br/>at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+<br/>at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+<br/>at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+<br/>at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+<br/>at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+<br/>at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+<br/>at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+<br/>at com.propine.dateparser.DateParser.browserMethod(DateParser.java:36)
+<br/>at com.propine.dateparser.DateParserTest.launch(DateParserTest.java:30)
+<br/>27 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m34">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m35">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m36">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m37">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m38">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m39">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m40">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m41">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m42">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m43">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m44">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m45">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m46">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m47">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m48">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m49">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m50">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m51">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m52">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m53">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m54">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m55">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m56">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m57">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m58">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m59">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m60">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m61">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m62">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m63">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m64">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m65">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m66">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m67">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m68">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m69">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m70">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m71">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m72">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m73">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m74">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m75">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m76">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m77">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m78">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m79">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m80">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m81">com.propine.dateparser.DateParserTest:launch</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m82">com.propine.dateparser.DateParserTest:logoutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m83">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_006</td>
+<td>6-13</td>
+<td>Wed Jun 13 2001 00:00:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m84">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_036</td>
+<td>05/09/20 25:59:59</td>
+<td>Invalid date</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m85">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_037</td>
+<td>05/09/20 8:61:10</td>
+<td>Invalid date</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m86">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_023</td>
+<td>FEB-12</td>
+<td>Mon Feb 12 2001 00:00:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m87">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_030</td>
+<td>07 August 1990</td>
+<td>Tue Aug 07 1990 00:00:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m88">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_014</td>
+<td>07/12/12 1:15 PM</td>
+<td>Thu Jul 12 2012 13:15:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m89">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_039</td>
+<td>20-06-10</td>
+<td>Invalid date</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m90">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_034</td>
+<td>21 July 2013 10:15 am -0115</td>
+<td>Sun Jul 21 2013 11:30:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m91">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_043</td>
+<td>09172020</td>
+<td>Invalid date</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m92">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_026</td>
+<td>1/10/2032</td>
+<td>Sat Jan 10 2032 00:00:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m93">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_028</td>
+<td>07 AUG 1990</td>
+<td>Tue Aug 07 1990 00:00:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m94">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_045</td>
+<td></td>
+<td>Invalid date</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m95">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_011</td>
+<td>11-1-2011 NST</td>
+<td>Tue Nov 01 2011 02:30:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m96">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_013</td>
+<td>11-1-2011 08:00:00 AMT</td>
+<td>Tue Nov 01 2011 04:00:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m97">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_005</td>
+<td>6</td>
+<td>Fri Jun 01 2001 00:00:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m98">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_031</td>
+<td>05/09/20 23:59:59</td>
+<td>Sat May 09 2020 23:59:59 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m99">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_042</td>
+<td>15/8/90</td>
+<td>Invalid date</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m100">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_012</td>
+<td>11-1-2011 08:00:00 IST</td>
+<td>Tue Nov 01 2011 013:30:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m101">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_038</td>
+<td>05/09/20 8:10:61</td>
+<td>Invalid date</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m102">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_029</td>
+<td>Tuesday,07 AUG 1990</td>
+<td>Tue Aug 07 1990 00:00:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m103">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_016</td>
+<td>Friday,April 15,2009</td>
+<td>Wed Apr 15 2009 00:00:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m104">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_027</td>
+<td>07-AUG-1990</td>
+<td>Tue Aug 07 1990 00:00:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m105">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_032</td>
+<td>01/03/20 17:20</td>
+<td>Fri Jan 03 2020 17:20:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m106">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_015</td>
+<td>07/12/12 1:15 AM</td>
+<td>Thu Jul 12 2012 01:15:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m107">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_022</td>
+<td>08-JAN-11</td>
+<td>Sat Jan 08 2011 00:00:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m108">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_019</td>
+<td>2/29/2020</td>
+<td>Sat Feb 29 2020 00:00:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m109">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_017</td>
+<td>3/14/2013</td>
+<td>Thu Mar 14 2013 00:00:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m110">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_018</td>
+<td>3/14</td>
+<td>Wed Mar 14 2001 00:00:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m111">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_008</td>
+<td>05/09/20 24:00:00</td>
+<td>Sun May 10 2020 00:00:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m112">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_007</td>
+<td>1969-10-10 14:48:00</td>
+<td>Fri Oct 10 1969 14:48:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m113">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_020</td>
+<td>02/29/2020</td>
+<td>Sat Feb 29 2020 00:00:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m114">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_021</td>
+<td>08-JAN</td>
+<td>Mon Jan 08 2001 00:00:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m115">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_033</td>
+<td>21 July 2013 10:15 pm +0115</td>
+<td>Sun Jul 21 2013 21:00:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m116">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_041</td>
+<td>15/8/1990</td>
+<td>Invalid date</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m117">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_040</td>
+<td>15-10-2020</td>
+<td>Invalid date</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m118">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_024</td>
+<td>February-12</td>
+<td>Mon Feb 12 2001 00:00:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m119">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_009</td>
+<td>11-1-2011 EST</td>
+<td>Tue Nov 01 2011 04:00:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m120">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_044</td>
+<td>ABC</td>
+<td>Invalid date</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m121">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_035</td>
+<td>11-1-2011 20:05:00  PST</td>
+<td>Wed Nov 02 2011 04:05:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m122">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_010</td>
+<td>1969-10-12 22:48:00 PST</td>
+<td>Mon Oct 13 1969 05:48:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m123">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_025</td>
+<td>APR 05,1700</td>
+<td>Mon Apr 05 1700 00:00:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m124">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_003</td>
+<td>2020-06-10</td>
+<td>Wed Jun 10 2020 00:00:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m125">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_004</td>
+<td>Wednesday,April 15,2009</td>
+<td>Wed Apr 15 2009 00:00:00 GMT+0000</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m126">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_002</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m127">com.propine.dateparser.DateParserTest:dateParser</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>TC_001</td>
+<td>https://vast-dawn-73245.herokuapp.com/</td>
+<td>Propine Date Parser</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

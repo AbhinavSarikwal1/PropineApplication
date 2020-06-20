@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="127"
+           failures="1"
+           errors="0"
+           skipped="122"
+           time="4.609">
+  <properties />
+            <testcase name="launch" time="0.000" classname="com.propine.dateparser.DateParserTest">
+                <failure type="org.openqa.selenium.SessionNotCreatedException"
+                  message="session not created
+from chrome not reachable
+  (Session info: chrome=83.0.4103.106)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;HIBACL69316&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x007D9563+2725219]
+	Ordinal0 [0x006D8551+1672529]
+	Ordinal0 [0x005C0202+524802]
+	Ordinal0 [0x005B99B2+498098]
+	Ordinal0 [0x005BA09B+499867]
+	Ordinal0 [0x005BAFF5+503797]
+	Ordinal0 [0x005B6994+485780]
+	Ordinal0 [0x005C0FF0+528368]
+	Ordinal0 [0x0056D6C9+186057]
+	Ordinal0 [0x0056CA3D+182845]
+	Ordinal0 [0x0056A94B+174411]
+	Ordinal0 [0x00552528+75048]
+	Ordinal0 [0x005535A0+79264]
+	Ordinal0 [0x00553539+79161]
+	Ordinal0 [0x006ED607+1758727]
+	GetHandleVerifier [0x008F6546+1050150]
+	GetHandleVerifier [0x008F6291+1049457]
+	GetHandleVerifier [0x009010D7+1094071]
+	GetHandleVerifier [0x008F6B46+1051686]
+	Ordinal0 [0x006E5B06+1727238]
+	Ordinal0 [0x006EEB7B+1764219]
+	Ordinal0 [0x006EECE3+1764579]
+	Ordinal0 [0x00704C05+1854469]
+	BaseThreadInitThunk [0x76F36359+25]
+	RtlGetAppContainerNamedObjectPath [0x77077C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77077BF4+180]
+"
+              >
+<![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=83.0.4103.106)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HIBACL69316', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x007D9563+2725219]
+	Ordinal0 [0x006D8551+1672529]
+	Ordinal0 [0x005C0202+524802]
+	Ordinal0 [0x005B99B2+498098]
+	Ordinal0 [0x005BA09B+499867]
+	Ordinal0 [0x005BAFF5+503797]
+	Ordinal0 [0x005B6994+485780]
+	Ordinal0 [0x005C0FF0+528368]
+	Ordinal0 [0x0056D6C9+186057]
+	Ordinal0 [0x0056CA3D+182845]
+	Ordinal0 [0x0056A94B+174411]
+	Ordinal0 [0x00552528+75048]
+	Ordinal0 [0x005535A0+79264]
+	Ordinal0 [0x00553539+79161]
+	Ordinal0 [0x006ED607+1758727]
+	GetHandleVerifier [0x008F6546+1050150]
+	GetHandleVerifier [0x008F6291+1049457]
+	GetHandleVerifier [0x009010D7+1094071]
+	GetHandleVerifier [0x008F6B46+1051686]
+	Ordinal0 [0x006E5B06+1727238]
+	Ordinal0 [0x006EEB7B+1764219]
+	Ordinal0 [0x006EECE3+1764579]
+	Ordinal0 [0x00704C05+1854469]
+	BaseThreadInitThunk [0x76F36359+25]
+	RtlGetAppContainerNamedObjectPath [0x77077C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77077BF4+180]
+
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+  org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+  org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+  java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+  java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+  java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+  java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+  java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+  java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+  java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+  java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+  java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+  org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+  org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+  org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+  org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+  org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+  org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+  org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+  com.propine.dateparser.DateParser.browserMethod(DateParser.java:36)
+  com.propine.dateparser.DateParserTest.launch(DateParserTest.java:30)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+  org.testng.SuiteRunner.run(SuiteRunner.java:240)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+  org.testng.TestNG.run(TestNG.java:1031)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="launch" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="logoutTest" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+            <testcase name="dateParser" time="0.0" classname="com.propine.dateparser.DateParserTest">
+          <skipped />
+    </testcase>
+  
+            <testcase name="dateParser" time="2.112" classname="com.propine.dateparser.DateParserTest" />
+                <testcase name="dateParser" time="2.249" classname="com.propine.dateparser.DateParserTest" />
+                <testcase name="dateParser" time="0.083" classname="com.propine.dateparser.DateParserTest" />
+                <testcase name="dateParser" time="0.046" classname="com.propine.dateparser.DateParserTest" />
+      
+</testsuite>
